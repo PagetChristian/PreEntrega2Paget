@@ -17,35 +17,19 @@ a {
 }
 
 /* header */
-.navbar {
-    padding: 30px;
-    color: #C3CEDA;
+.navbar {    
     background-color: #0C4160;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
-.navbar-button {
-    font-weight: bold;        
-    padding: 5px 10px;
-    margin: 5px;
+.nav-link {
+    color: #FFF;
 }
-
-.navbar-button:hover {
-    font-weight: italic;
-    color: #eee;        
-    
+.nav-link:hover {
+    color: #EEE;
 }
-
-.active {
-    font-weight: italic;
-    color: #eee;        
-    
+.navbar-toggler {
+    background-color: #C3CEDA;
 }
-
 footer {
     padding: 25px;
     background-color: #0C4160;
@@ -78,20 +62,15 @@ footer p {
     line-height: 45px;
 }
 
-.form-control {
-margin: =10px;
-padding: 10px;
-}
-
 .recuadro {
     padding: 10px ;
     border-radius: 5px;
     box-shadow: 5px;
 }
 
-.boton-formulario {
-
-    padding: 10px;
-    margin: 5px;
+.img-hover {
+    transition: 1s;
 }
-
+.img-hover:hover {
+    scale: 0.9;
+}
