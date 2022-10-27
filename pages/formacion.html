@@ -5,51 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./../css/estilo.css">
     <title>Formación</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul class="navbar">
-                <li><a class="navbar-button" href="./../index.html">Inicio</a></li>
-                <li><a class="navbar-button" href="./perfil.html">Perfil</a></li>
-                <li><a class="navbar-button active" href="#">Formación</a></li>
-                <li><a class="navbar-button" href="./experiencia.html">Experiencia</a></li>
-                <li><a class="navbar-button" href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link"" href="./../index.html">Inicio</a>
+                        <a class="nav-link" href="./perfil.html">Perfil</a>
+                        <a class="nav-link" aria-current="page" href="#">Formación</a>
+                        <a class="nav-link" href="./experiencia.html">Experiencia</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-    <main class="content">
-        <article class="descripcion">
-            <h2>Formación académica</h2>
-            <p>Secundario completo, año de egreso 1995.</p>
-            <p>1999 - Curso de electrónica básica y electricidad.</p>
-            <p>2001 - Curso de administrador de redes SOHO (Instituto Hilet College, Mar del Plata).</p>
-            <p>2002 - Diseño de páginas web en plataforma Macromedia Mx.</p>
-            <p>2005 - Carrera de técnico en programación (UTN, Mar del Plata) - incompleto.</p>
-            <p>2018 - Curso de PHP y MySQL (Carrera Linux, online).</p>
-            <p>2022 - Actualmente cursando la carrera de Desarrollador FullStack (CoderHouse, online).</p>
-        </article>
-        <aside>
-            <img src="https://dummyimage.com/400x400/000000/fff.png&text=image" alt="Foto de Perfil">
-        </aside>
+    <main class="container m-auto">
+        <div class="row">
+            <div class="col-md-6 col-12 text-center py-3">
+                <aside>
+                    <img class="img-fluid img-hover" src="https://dummyimage.com/400x400/000000/fff.png&text=image" alt="Foto de Perfil">
+                </aside>
+            </div>
+            <div class="col-md-6 col-12 text-center py-3">
+                <article class="descripcion">
+                    <h2>Formación académica</h2>
+                    <p>Secundario completo, año de egreso 1995.</p>
+                    <p>1999 - Curso de electrónica básica y electricidad.</p>
+                    <p>2001 - Curso de administrador de redes SOHO (Instituto Hilet College, Mar del Plata).</p>
+                    <p>2002 - Diseño de páginas web en plataforma Macromedia Mx.</p>
+                    <p>2005 - Carrera de técnico en programación (UTN, Mar del Plata) - incompleto.</p>
+                    <p>2018 - Curso de PHP y MySQL (Carrera Linux, online).</p>
+                    <p>2022 - Actualmente cursando la carrera de Desarrollador FullStack (CoderHouse, online).</p>
+                </article>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Christian Paget - 2022</p>
-    </footer>
-    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-        crossorigin="anonymous"></script>-->
+    </footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
